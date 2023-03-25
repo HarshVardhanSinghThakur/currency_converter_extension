@@ -1,0 +1,33 @@
+{   
+    "manifest_version":2,
+    "name": "converter",
+    "version": "0.0.1",
+    "description":"converter",
+    "icons":{
+        "128":"/images/pngegg.png"
+        
+
+    },
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon":"/images/pngegg.png"
+
+    },
+   
+    "page_actions":{
+        "default_icon": {
+
+
+        }
+    },
+    "background":{
+        "service_worker":"con_1.js"
+    },
+
+    "permisions":
+        ["activeTab",
+        "storage",
+        "scripting"
+    ]
+
+}
